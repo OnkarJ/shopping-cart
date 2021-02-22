@@ -1,0 +1,24 @@
+.cart {
+    cursor: pointer;
+    background: rgb(220, 0, 78);
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    float: right;
+    box-shadow: 5px 10px 8px 1px #aba8a8;
+}
+
+.cart > svg {
+    fill: white;
+}
+
+.cart-count {
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 1191px) {
+    .cart {
+        border-radius: 0;
+        float: unset;
+    }
+}
